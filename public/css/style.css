@@ -1,0 +1,112 @@
+.ml-auto{
+    margin-left: auto;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.main-menu{
+    background-color: rgb(35, 33, 37);
+}
+.navbar{
+ background-color: rgb(35, 33, 37);
+}
+.navbar a{
+    color: rgb(232, 227, 236);
+}
+.navbar-toggler{
+    border: 2px solid rgb(238, 230, 230);
+}
+.navbar a:hover{
+    color: royalblue;
+}
+.row{
+    margin-top: 5px;
+}
+.main-header1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   
+}
+.left-side{
+   text-align: center;
+}
+.main-header2{
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   
+}
+.footer{
+    background-color: black;
+    color: bisque;
+    text-align: center;
+    margin-top: auto;
+    padding: 20px;
+}
+
+
+.div1{
+    width: 100%;
+    height: 100vh;
+    border: 2px solid royalblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.div2{
+    border: 2px solid darkgoldenrod;
+    /* display: inline-block;
+    text-align: center; */
+    height: 400px;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.input{
+       width: 300px;
+       height: 30px;
+       text-align: center;
+       border-radius: 20px;
+       margin: 3px;
+}
+.tbn{
+    margin-left: -47px;
+    margin-bottom: 2px;
+    border-radius: 20px;
+}
+.div4{
+    text-align: center;
+    height: 230px;
+    width: 200px;
+    border: 2px solid black;
+}
+.div5{
+    border-bottom: 2px solid black;
+
+}
+.div6{
+   padding: 20px;
+}
+/* .main-header {
+    border: 2px solid rebeccapurple;
+}
+.rw1 {
+    border: 2px solid rgb(153, 51, 122);
+}
+.main-header1 {
+    border: 2px solid rebeccapurple;
+} */
